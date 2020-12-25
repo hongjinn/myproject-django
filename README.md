@@ -24,9 +24,15 @@ whateveryouwant/            # This is the only folder you can name whatever you 
 
 ```
 git clone https://github.com/hongjinn/myproject-django        # Clone repository
-mv myproject-django myproject                                 # Optional: rename the folder to myproject (for config files)
+mv myproject-django myproject                                 # Rename the folder to myproject (for config files)
+cd !$                                                         # Move into folder
 python3 -m venv venv                                          # Creates a venv called "venv"
 source venv/bin/activate                                      # Now let's activate it
 pip3 install -r requirements.txt                              # Install dependencies
-python myproject/myapp/manage.py runserver                    # Start development server in myproject/myapp/manage.py
+python myapp/manage.py runserver                              # Start development server in myproject/myapp/manage.py
+
+# Open Chrome and go to http://localhost:8000
+
+# All as one command
+git clone https://github.com/hongjinn/myproject-django && mv myproject-django myproject && cd !$ && python3 -m venv venv && source venv/bin/activate && pip3 install -r requirements.txt && python myapp/manage.py runserver
 ```
