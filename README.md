@@ -1,8 +1,10 @@
 ## A very basic Django project
 
-Not very different from doing ```django-admin startproject myproject```
-For deployment on AWS with Nginx: https://github.com/hongjinn/myproject-django-gunicorn-nginx
-For deployment on AWS with Apache: https://github.com/hongjinn/myproject-django-mod_wsgi-apache
+* Not very different from doing ```django-admin startproject myproject```
+
+* For deployment on AWS with Nginx: https://github.com/hongjinn/myproject-django-gunicorn-nginx
+
+* For deployment on AWS with Apache: https://github.com/hongjinn/myproject-django-mod_wsgi-apache
 
 ```
 # Directory structure
