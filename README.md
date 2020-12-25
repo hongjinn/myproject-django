@@ -34,5 +34,5 @@ python myapp/manage.py runserver                              # Start developmen
 # Open Chrome and go to http://localhost:8000
 
 # All as one command
-git clone https://github.com/hongjinn/myproject-django && mv myproject-django myproject && cd !$ && python3 -m venv venv && source venv/bin/activate && pip3 install -r requirements.txt && python myapp/manage.py runserver
+git clone https://github.com/hongjinn/myproject-django && mv myproject-django myproject && cd myproject && python3 -m venv venv && source venv/bin/activate && pip3 install -r requirements.txt && python myapp/manage.py runserver
 ```
