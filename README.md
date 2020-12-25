@@ -1,6 +1,6 @@
 ## A very basic Django project
 
-* Not very different from doing ```django-admin startproject myproject```
+* Not much different from doing ```django-admin startproject myproject```
 
 * For deployment on AWS with Nginx: https://github.com/hongjinn/myproject-django-gunicorn-nginx
 
