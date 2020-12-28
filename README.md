@@ -6,6 +6,8 @@
 
 * For deployment on AWS with Apache: https://github.com/hongjinn/myproject-django-mod_wsgi-apache
 
+* For deployment on Linode with Nginx and Docker: https://github.com/hongjinn/myproject-docker-django-gunicorn-nginx
+
 ```
 # Directory structure
 
